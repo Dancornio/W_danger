@@ -17,3 +17,7 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+
+settings.json
+*.claude
+e.txt
