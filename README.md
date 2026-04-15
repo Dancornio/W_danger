@@ -18,17 +18,42 @@ This project is a dashboard designed to study and visualize data related to woma
    ```
    cd w-danger-dashboard
    ```
-3. Install dependencies:
+3. Create and virtual environment:
+   
+   
+   Install in Windows/macOS/Linux 
+   ``` 
+   python -m venv .venv
    ```
-   npm install
+4. Activate the Environment
+   
+   Windows (PowerShell):
    ```
-4. Run the application:
+   .venv\Scripts\Activate.ps1
    ```
-   npm start
+   Windows (Command Prompt):
+   ```
+   .venv\Scripts\activate
    ```
 
+   macOS / Linux: 
+   
+   ```
+   source .venv/bin/activate 
+   ```
+
+5. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+6. Run the application:
+   ```
+   cd app && streamlit run main.py --server.port 8503 --server.headless true
+   ```
+   
+
 ## Usage
-- Access the dashboard via your web browser at `http://localhost:3000`
+- Access the dashboard via your web browser at `http://localhost:8503`
 - Select filters to explore specific data sets
 - View charts and maps for detailed insights
 

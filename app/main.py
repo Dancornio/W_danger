@@ -6,7 +6,7 @@ import streamlit_option_menu
 from streamlit_option_menu import option_menu
 
 
-from core.data import load_dataset
+from app.core.data import load_dataset
 
 
 st.set_page_config(
