@@ -1,13 +1,20 @@
+from pathlib import Path
+
+import plotly.express as px
 import streamlit as st
+import streamlit_option_menu
 from streamlit_option_menu import option_menu
+
+
+
 from core.data import load_dataset
 
-st.set_page_config(
-    page_title="Violeta Analytics",
-    page_icon="assets/violeta_logo.png",
-    layout="wide",
-    initial_sidebar_state="expanded",
 
+st.set_page_config(
+	page_title="Violeta Analytics",
+	page_icon="\U0001f7e3",
+	layout="wide",
+	initial_sidebar_state="expanded",
 )
 
 st.markdown(
@@ -29,13 +36,11 @@ st.markdown(
 	unsafe_allow_html=True,
 )
 
-st.sidebar.caption("Made by an [Ammon](https://www.linkedin.com/in/omoura/)")
-
 with st.sidebar:
 	selected = option_menu(
         menu_title="Menu",
-        options=["Home", "Dashboard", "Sobre"],
-        icons=["house", "bar-chart", "info-circle"],
+        options=["Home", "Dashboard", "Sobre", "Contato"],
+        icons=["house", "bar-chart", "info-circle", "envelope"],
         menu_icon="cast",
         default_index=0,
 		styles={
@@ -52,7 +57,7 @@ with st.sidebar:
 			},
 			"icon": {
 				"color": "#6f52d9",
-				"font-size": "1rem",	
+				"font-size": "1rem",
 			},
 			"nav-link": {
 				"font-size": "0.95rem",
@@ -69,7 +74,6 @@ with st.sidebar:
 				"font-weight": "600",
 			},
         }
-
     )
 
 if selected == "Sobre":
@@ -86,15 +90,38 @@ if selected == "Sobre":
 		"""
 	)
 	st.info("Para mais informações, entre em contato: ammon@tutamail.com.")
-
+elif selected == "Contato":
+	st.title("Contato")
+	st.markdown(
+		"""
+		Para entrar em contato, envie um e-mail para: ammon@tutamail.com
+		"""
+	)
 elif selected == "Dashboard":
-    st.title(":material/analytics: Violeta Analytics ")
-    st.markdown(
-        """
-        Explore os dados de feminicídio e violência doméstica nos estados do Brasil utilizando os filtros disponíveis. 
-        """
-    )
-    
-    
+	st.title("Dashboard")
+	st.caption("Fonte: mortes_violentas_estado.csv")
 
-st.sidebar.info("OBS: O rigor para a analise de dados pode estar contaminado por erros de preenchimento dos dados originais, que são abertos e disponibilizados pelo governo. O dashboard é uma ferramenta de exploração e visualização, e não um estudo acadêmico ou relatório oficial.")
+	csv_real = Path(__file__).resolve().parents[1] / "data" / "raw" / "mortes_violentas_estado.csv"
+	df = load_dataset(csv_real)
+
+	mensal = df.groupby("PERIODO", as_index=False)["QT_VITIMAS"].sum()
+	mensal["PERIODO"] = mensal["PERIODO"].dt.strftime("%Y-%m")
+
+	fig = px.line(
+		mensal,
+		x="PERIODO",
+		y="QT_VITIMAS",
+		markers=True,
+		color_discrete_sequence=["#6f52d9"],
+		labels={"PERIODO": "Periodo (ano-mes)", "QT_VITIMAS": "Vitimas"},
+		title="Total mensal de vitimas no estado",
+	)
+	fig.update_traces(line=dict(width=3), marker=dict(size=6))
+	fig.update_layout(
+		margin=dict(l=8, r=8, t=56, b=8),
+		plot_bgcolor="rgba(255,255,255,0.65)",
+		paper_bgcolor="rgba(255,255,255,0)",
+	)
+
+	st.plotly_chart(fig, use_container_width=True)
+
