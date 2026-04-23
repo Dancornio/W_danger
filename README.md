@@ -1,4 +1,4 @@
-# Dashboard for Studying Woman Domestic Violence and Femicide
+# Dashboard for Studying Woman Domestic Violence and Femicide In Brazil 🇧🇷
 
 ## Overview
 This project is a dashboard designed to study and visualize data related to woman domestic violence and femicide. It aims to provide insights into trends, statistics, and patterns to support research, awareness, and policy-making efforts.
@@ -9,45 +9,54 @@ This project is a dashboard designed to study and visualize data related to woma
 - Femicide case studies and mappings
 - User-friendly interface for exploring data
 
-## Installation
-1. Clone the repository:
-   ```
+## Installation 📥
+### 1. Clone the repository:
+
+   ```bash
    git clone https://github.com/your-repo/w-danger-dashboard.git
    ```
-2. Navigate to the project directory:
-   ```
+
+### 2. Navigate to the project directory:
+
+   ```bash
    cd w-danger-dashboard
    ```
-3. Create and virtual environment:
+### 3. Create and virtual environment:
    
+
    
-   Install in Windows/macOS/Linux 
-   ``` 
+   ``` bash
    python -m venv .venv
    ```
-4. Activate the Environment
+### 4. Activate the Environment
    
-   Windows (PowerShell):
-   ```
+   - Windows (PowerShell):
+
+   ```bash
    .venv\Scripts\Activate.ps1
    ```
-   Windows (Command Prompt):
-   ```
+
+   - Windows (Command Prompt):
+
+   ```bash
    .venv\Scripts\activate
    ```
 
-   macOS / Linux: 
+   - macOS / Linux: 
    
-   ```
+   ```bash
    source .venv/bin/activate 
    ```
 
-5. Install dependencies:
-   ```
+### 5. Install dependencies:
+
+   ```bash
    pip install -r requirements.txt
    ```
-6. Run the application:
-   ```
+
+### 6. Run the application:
+
+   ```bash
    cd app && streamlit run main.py --server.port 8503 --server.headless true
    ```
    
