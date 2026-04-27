@@ -1,6 +1,4 @@
-import streamlit as st
-from streamlit_option_menu import option_menu
-from core.data import load_dataset
+import streamlit as st 
 
 st.set_page_config(
     page_title="Violeta Analytics",
@@ -11,90 +9,66 @@ st.set_page_config(
 )
 
 st.markdown(
-	"""
-	<style>
-	  .stApp {
-		background: radial-gradient(circle at 5% 10%, #f0ebff 0%, #f6f3ff 35%, #f8f7ff 100%);
-	  }
-	  section[data-testid="stSidebar"] {
-		background: linear-gradient(180deg, #f1e9ff 0%, #e8dcff 100%);
-		border-right: 1px solid rgba(111, 82, 217, 0.2);
-	  }
-	  .block-container {
-		padding-top: 1.2rem;
-		padding-bottom: 1.2rem;
-	  }
-	</style>
-	""",
-	unsafe_allow_html=True,
+    
+        """
+        <style>
+            .stApp {
+                background: radial-gradient(circle at 5% 10%, #f0ebff 0%, #f6f3ff 35%, #f8f7ff 100%);
+            }
+            section[data-testid="stSidebar"] {
+                background: linear-gradient(180deg, #f1e9ff 0%, #e8dcff 100%);
+                border-right: 1px solid rgba(111, 82, 217, 0.2);
+            }
+            header[data-testid="stHeader"] {
+                background: transparent !important;
+                border-bottom: 0 !important;
+            }
+            [data-testid="stToolbar"] {
+                background: transparent !important;
+            }
+            section[data-testid="stSidebar"] [data-testid="stSidebarNav"] {
+                padding: 0.3rem;
+            }
+            section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a {
+                border-radius: 8px;
+                color: #433267;
+            }
+            section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a:hover {
+                background: #ddccff;
+                color: #433267;
+            }
+            section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a[aria-current="page"] {
+                background: linear-gradient(90deg, #ac9ce6 0%, #6f52d9 100%);
+                color: #ffffff;
+                font-weight: 700;
+            }
+            .block-container {
+                padding-top: 1.2rem;
+                padding-bottom: 1.2rem;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
 )
 
-st.sidebar.caption("Made by an [Ammon](https://www.linkedin.com/in/omoura/)")
+pg = st.navigation(
+    
+    [
+        st.Page("pages/home.py", title="Home", icon=":material/house:", default=True),
+        st.Page(
+            "pages/dashboard.py",
+            title="Violeta Analytics",
+            icon=":material/dashboard:",
+        ),
+        st.Page("pages/about.py", title="Sobre", icon=":material/info:"),
+        st.Page("pages/law.py", title="Tipificação dos crimes", icon=":material/gavel:"),
+    ],
+)
+pg.run()
 
 with st.sidebar:
-	selected = option_menu(
-        menu_title="Menu",
-        options=["Home", "Dashboard", "Sobre"],
-        icons=["house", "bar-chart", "info-circle"],
-        menu_icon="cast",
-        default_index=0,
-		styles={
-			"container": {
-				"padding": "0.2rem 0.25rem",
-				"background-color": "rgba(255, 255, 255, 0.45)",
-				"border": "1px solid rgba(111, 82, 217, 0.28)",
-				"border-radius": "12px",
-			},
-			"menu-title": {
-				"color": "#3f2c74",
-				"font-size": "1.05rem",
-				"font-weight": "700",
-			},
-			"icon": {
-				"color": "#6f52d9",
-				"font-size": "1rem",	
-			},
-			"nav-link": {
-				"font-size": "0.95rem",
-				"text-align": "left",
-				"margin": "0.15rem 0",
-				"padding": "0.5rem 0.6rem",
-				"color": "#433267",
-				"border-radius": "8px",
-				"--hover-color": "#ddccff",
-			},
-			"nav-link-selected": {
-				"background": "linear-gradient(90deg, #8a68f2 0%, #6f52d9 100%)",
-				"color": "#ffffff",
-				"font-weight": "600",
-			},
-        }
-
-    )
-
-if selected == "Sobre":
-	st.title("Sobre o projeto")
-	st.markdown(
-		"""
-		Este projeto foi desenvolvido com o propósito de aplicar técnicas de análise de dados e desenvolvimento de interfaces utilizando Python e Streamlit. 
-		O objetivo é fornecer um dashboard interativo que transforma dados brutos de segurança pública em insights visuais claros. 
-		A ferramenta permite a exploração detalhada de registros de mortes violentas no estado, 
-		facilitando a identificação de tendências temporais, áreas de maior incidência e tipologias criminais predominantes. 
-		Toda a análise é fundamentada em microdados reais e abertos, disponibilizados por fontes governamentais.
-		
-		O Dashboard utiliza fontes de dados reais disponibilizadas pelo governo publicamente.
-		"""
-	)
-	st.info("Para mais informações, entre em contato: ammon@tutamail.com.")
-
-elif selected == "Dashboard":
-    st.title(":material/analytics: Violeta Analytics ")
     st.markdown(
-        """
-        Explore os dados de feminicídio e violência doméstica nos estados do Brasil utilizando os filtros disponíveis. 
-        """
+        ":material/code: [streamlit-echarts](https://github.com/andfanilo/streamlit-echarts)"
     )
-    
-    
+    st.caption("Made in :streamlit: by [Ammon](https://www.linkedin.com/in/omoura/)")
 
-st.sidebar.info("OBS: O rigor para a analise de dados pode estar contaminado por erros de preenchimento dos dados originais, que são abertos e disponibilizados pelo governo. O dashboard é uma ferramenta de exploração e visualização, e não um estudo acadêmico ou relatório oficial.")

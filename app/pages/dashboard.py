@@ -13,4 +13,10 @@ st.markdown(
 with st.sidebar:
     st.title(":material/filter_alt: Filters")
 
-
+    selected_data = st.selectbox(
+        "Selecione o dataset",
+        options=[
+            "Feminicídio",
+            "Violência Doméstica",
+        ]
+)
