@@ -53,7 +53,6 @@ def sort_table(df: pd.DataFrame, by: str | list[str], ascending: bool = True) ->
 	keys = [by] if isinstance(by, str) else by
 	records = df.to_dict("records")
 
-	# Stable multi-key sort without relying on pandas sort_values type overloads.
 	for key in reversed(keys):
 		records = sorted(records, key=lambda row: row[key], reverse=not ascending)
 
@@ -251,8 +250,6 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, width='stretch')
-
-
 
 st.caption(
 	"Observacao: os valores sao absolutos e podem refletir variacoes de registro/notificacao ao longo do tempo."

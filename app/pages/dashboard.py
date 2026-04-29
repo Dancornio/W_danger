@@ -13,10 +13,16 @@ st.markdown(
 with st.sidebar:
     st.title(":material/filter_alt: Filters")
 
-    selected_data = st.selectbox(
-        "Selecione o dataset",
+    selected_categoria = st.selectbox(
+        "Selecione a categoria para análise:",
         options=[
             "Feminicídio",
             "Violência Doméstica",
         ]
-)
+    )
+
+    selected_estado = st.multiselect(
+        "Selecione os estados para análise:",
+        options=["BA", "MG", "DF"],
+    )
+
