@@ -1,0 +1,315 @@
+categoria,ano,mes,vitimas,municipio,regiao
+FEMINICIDIO,2026,1,1,Alcobaça,Interior
+FEMINICIDIO,2023,1,1,Apora,Interior
+FEMINICIDIO,2025,1,1,Barreiras,Interior
+FEMINICIDIO,2025,1,1,Caetite,Interior
+FEMINICIDIO,2025,1,1,Camaçari,RMS
+FEMINICIDIO,2026,1,1,Catolandia,Interior
+FEMINICIDIO,2023,1,1,Curaça,Interior
+FEMINICIDIO,2023,1,1,Encruzilhada,Interior
+FEMINICIDIO,2023,1,1,Entre Rios,Interior
+FEMINICIDIO,2025,1,1,Eunapolis,Interior
+FEMINICIDIO,2025,1,1,Feira de Santana,Interior
+FEMINICIDIO,2026,1,1,Feira de Santana,Interior
+FEMINICIDIO,2026,1,1,Iguai,Interior
+FEMINICIDIO,2026,1,1,Itabela,Interior
+FEMINICIDIO,2025,1,1,Itabuna,Interior
+FEMINICIDIO,2024,1,1,Lauro de Freitas,RMS
+FEMINICIDIO,2025,1,1,Luis Eduardo Magalhaes,Interior
+FEMINICIDIO,2023,1,1,Macaubas,Interior
+FEMINICIDIO,2024,1,1,Morpara,Interior
+FEMINICIDIO,2026,1,1,Nazare,Interior
+FEMINICIDIO,2026,1,1,Nova Viçosa,Interior
+FEMINICIDIO,2024,1,1,Planalto,Interior
+FEMINICIDIO,2026,1,1,Porto Seguro,Interior
+FEMINICIDIO,2023,1,1,Porto Seguro,Interior
+FEMINICIDIO,2024,1,1,Porto Seguro,Interior
+FEMINICIDIO,2026,1,2,Remanso,Interior
+FEMINICIDIO,2024,1,1,Ribeirao do Largo,Interior
+FEMINICIDIO,2025,1,1,Salvador,Salvador
+FEMINICIDIO,2023,1,1,Santa Cruz Cabralia,Interior
+FEMINICIDIO,2024,1,1,Sao Francisco do Conde,RMS
+FEMINICIDIO,2023,1,1,Valença,Interior
+FEMINICIDIO,2024,1,1,Vera Cruz,RMS
+FEMINICIDIO,2023,2,1,Acajutiba,Interior
+FEMINICIDIO,2024,2,1,Alagoinhas,Interior
+FEMINICIDIO,2023,2,1,America Dourada,Interior
+FEMINICIDIO,2025,2,1,Aramari,Interior
+FEMINICIDIO,2024,2,1,Belmonte,Interior
+FEMINICIDIO,2024,2,1,Bom Jesus da Serra,Interior
+FEMINICIDIO,2024,2,1,Camacan,Interior
+FEMINICIDIO,2023,2,1,Curaça,Interior
+FEMINICIDIO,2025,2,1,Feira de Santana,Interior
+FEMINICIDIO,2026,2,2,Feira de Santana,Interior
+FEMINICIDIO,2023,2,1,Gandu,Interior
+FEMINICIDIO,2026,2,1,Ipira,Interior
+FEMINICIDIO,2025,2,1,Itacare,Interior
+FEMINICIDIO,2025,2,1,Itamaraju,Interior
+FEMINICIDIO,2024,2,1,Maracas,Interior
+FEMINICIDIO,2024,2,1,Marcionilio Souza,Interior
+FEMINICIDIO,2026,2,1,Morro do Chapeu,Interior
+FEMINICIDIO,2025,2,1,Nova Ibia,Interior
+FEMINICIDIO,2024,2,1,Nova Viçosa,Interior
+FEMINICIDIO,2026,2,1,Ourolandia,Interior
+FEMINICIDIO,2023,2,1,Paulo Afonso,Interior
+FEMINICIDIO,2026,2,1,Salvador,Salvador
+FEMINICIDIO,2024,2,2,Salvador,Salvador
+FEMINICIDIO,2025,2,2,Salvador,Salvador
+FEMINICIDIO,2024,2,1,Santa Cruz Cabralia,Interior
+FEMINICIDIO,2025,2,1,Santa Maria da Vitoria,Interior
+FEMINICIDIO,2025,2,1,Simões Filho,RMS
+FEMINICIDIO,2023,2,1,Teixeira de Freitas,Interior
+FEMINICIDIO,2025,2,1,Una,Interior
+FEMINICIDIO,2026,2,1,Varzea Nova,Interior
+FEMINICIDIO,2023,3,1,Alagoinhas,Interior
+FEMINICIDIO,2025,3,1,Caturama,Interior
+FEMINICIDIO,2025,3,1,Conde,Interior
+FEMINICIDIO,2023,3,1,Coronel Joao Sa,Interior
+FEMINICIDIO,2024,3,1,Feira de Santana,Interior
+FEMINICIDIO,2025,3,1,Ilheus,Interior
+FEMINICIDIO,2025,3,1,Irece,Interior
+FEMINICIDIO,2024,3,1,Juazeiro,Interior
+FEMINICIDIO,2023,3,1,Luis Eduardo Magalhaes,Interior
+FEMINICIDIO,2023,3,1,Mata de Sao Joao,RMS
+FEMINICIDIO,2024,3,1,Mirangaba,Interior
+FEMINICIDIO,2024,3,1,Rio Real,Interior
+FEMINICIDIO,2025,3,1,Salvador,Salvador
+FEMINICIDIO,2023,3,2,Salvador,Salvador
+FEMINICIDIO,2024,3,1,Santa Luzia,Interior
+FEMINICIDIO,2024,3,1,Santa Maria da Vitoria,Interior
+FEMINICIDIO,2023,3,1,Sao Francisco do Conde,RMS
+FEMINICIDIO,2024,4,1,Alagoinhas,Interior
+FEMINICIDIO,2024,4,1,Aramari,Interior
+FEMINICIDIO,2024,4,1,Barra do Choça,Interior
+FEMINICIDIO,2024,4,1,Barreiras,Interior
+FEMINICIDIO,2023,4,1,Bom Jesus da Serra,Interior
+FEMINICIDIO,2023,4,1,Capim Grosso,Interior
+FEMINICIDIO,2024,4,2,Conceiçao do Coite,Interior
+FEMINICIDIO,2025,4,1,Conceiçao do Jacuipe,Interior
+FEMINICIDIO,2025,4,1,Cruz das Almas,Interior
+FEMINICIDIO,2024,4,1,Feira de Santana,Interior
+FEMINICIDIO,2025,4,1,Iguai,Interior
+FEMINICIDIO,2024,4,1,Inhambupe,Interior
+FEMINICIDIO,2025,4,1,Ipira,Interior
+FEMINICIDIO,2025,4,1,Irece,Interior
+FEMINICIDIO,2025,4,1,Itaberaba,Interior
+FEMINICIDIO,2023,4,1,Itiruçu,Interior
+FEMINICIDIO,2024,4,1,Iuiu,Interior
+FEMINICIDIO,2025,4,1,Mundo Novo,Interior
+FEMINICIDIO,2024,4,1,Oliveira dos Brejinhos,Interior
+FEMINICIDIO,2025,4,1,Queimadas,Interior
+FEMINICIDIO,2024,4,1,Remanso,Interior
+FEMINICIDIO,2025,4,1,Riachao do Jacuipe,Interior
+FEMINICIDIO,2023,4,1,Ribeira do Pombal,Interior
+FEMINICIDIO,2023,4,1,Rio Real,Interior
+FEMINICIDIO,2024,4,2,Salvador,Salvador
+FEMINICIDIO,2025,4,3,Salvador,Salvador
+FEMINICIDIO,2023,4,2,Salvador,Salvador
+FEMINICIDIO,2025,4,1,Santana,Interior
+FEMINICIDIO,2024,4,1,Santo Amaro,Interior
+FEMINICIDIO,2023,4,1,Sao Domingos,Interior
+FEMINICIDIO,2023,4,1,Sebastiao Laranjeiras,Interior
+FEMINICIDIO,2023,4,1,Vera Cruz,RMS
+FEMINICIDIO,2023,4,1,Vitoria da Conquista,Interior
+FEMINICIDIO,2025,5,1,Aurelino Leal,Interior
+FEMINICIDIO,2023,5,1,Camacan,Interior
+FEMINICIDIO,2025,5,1,Camaçari,RMS
+FEMINICIDIO,2024,5,1,Candido Sales,Interior
+FEMINICIDIO,2023,5,1,Cicero Dantas,Interior
+FEMINICIDIO,2024,5,1,Eunapolis,Interior
+FEMINICIDIO,2024,5,1,Ilheus,Interior
+FEMINICIDIO,2025,5,1,Itatim,Interior
+FEMINICIDIO,2025,5,1,Lapao,Interior
+FEMINICIDIO,2024,5,1,Paulo Afonso,Interior
+FEMINICIDIO,2023,5,1,Porto Seguro,Interior
+FEMINICIDIO,2024,5,1,Porto Seguro,Interior
+FEMINICIDIO,2025,5,1,Remanso,Interior
+FEMINICIDIO,2023,5,6,Salvador,Salvador
+FEMINICIDIO,2024,5,2,Salvador,Salvador
+FEMINICIDIO,2025,5,1,Serra do Ramalho,Interior
+FEMINICIDIO,2025,5,1,Serrinha,Interior
+FEMINICIDIO,2023,5,1,Serrolandia,Interior
+FEMINICIDIO,2025,5,1,Tabocas do Brejo Velho,Interior
+FEMINICIDIO,2024,5,1,Uaua,Interior
+FEMINICIDIO,2024,6,1,Camamu,Interior
+FEMINICIDIO,2024,6,1,Ibirapua,Interior
+FEMINICIDIO,2024,6,1,Igapora,Interior
+FEMINICIDIO,2023,6,1,Ilheus,Interior
+FEMINICIDIO,2023,6,1,Itabuna,Interior
+FEMINICIDIO,2025,6,1,Itacare,Interior
+FEMINICIDIO,2024,6,1,Ituaçu,Interior
+FEMINICIDIO,2025,6,2,Juazeiro,Interior
+FEMINICIDIO,2024,6,1,Morro do Chapeu,Interior
+FEMINICIDIO,2024,6,1,Oliveira dos Brejinhos,Interior
+FEMINICIDIO,2025,6,1,Pedro Alexandre,Interior
+FEMINICIDIO,2024,6,1,Salvador,Salvador
+FEMINICIDIO,2023,6,1,Salvador,Salvador
+FEMINICIDIO,2023,6,1,Santo Antonio de Jesus,Interior
+FEMINICIDIO,2024,6,1,Serra do Ramalho,Interior
+FEMINICIDIO,2025,6,1,Serrinha,Interior
+FEMINICIDIO,2023,6,1,Simões Filho,RMS
+FEMINICIDIO,2023,6,1,Tabocas do Brejo Velho,Interior
+FEMINICIDIO,2025,6,1,Teixeira de Freitas,Interior
+FEMINICIDIO,2025,6,1,Vitoria da Conquista,Interior
+FEMINICIDIO,2023,6,1,Vitoria da Conquista,Interior
+FEMINICIDIO,2025,7,1,Camaçari,RMS
+FEMINICIDIO,2024,7,1,Campo Formoso,Interior
+FEMINICIDIO,2023,7,1,Cicero Dantas,Interior
+FEMINICIDIO,2024,7,1,Eunapolis,Interior
+FEMINICIDIO,2025,7,1,Feira de Santana,Interior
+FEMINICIDIO,2024,7,1,Floresta Azul,Interior
+FEMINICIDIO,2023,7,1,Guanambi,Interior
+FEMINICIDIO,2023,7,1,Guaratinga,Interior
+FEMINICIDIO,2023,7,1,Ilheus,Interior
+FEMINICIDIO,2023,7,1,Itabela,Interior
+FEMINICIDIO,2025,7,1,Jeremoabo,Interior
+FEMINICIDIO,2024,7,2,Juazeiro,Interior
+FEMINICIDIO,2023,7,1,Juazeiro,Interior
+FEMINICIDIO,2025,7,1,Planalto,Interior
+FEMINICIDIO,2025,7,1,Rio Real,Interior
+FEMINICIDIO,2023,7,1,Salvador,Salvador
+FEMINICIDIO,2023,7,1,Sao Desiderio,Interior
+FEMINICIDIO,2024,7,1,Serra do Ramalho,Interior
+FEMINICIDIO,2024,7,1,Tanhaçu,Interior
+FEMINICIDIO,2024,7,1,Vera Cruz,RMS
+FEMINICIDIO,2025,8,1,Barra,Interior
+FEMINICIDIO,2025,8,1,Barrocas,Interior
+FEMINICIDIO,2023,8,1,Bom Jesus da Lapa,Interior
+FEMINICIDIO,2023,8,1,Canavieiras,Interior
+FEMINICIDIO,2025,8,1,Coaraci,Interior
+FEMINICIDIO,2023,8,1,Feira de Santana,Interior
+FEMINICIDIO,2023,8,1,Ibicarai,Interior
+FEMINICIDIO,2024,8,1,Ibirataia,Interior
+FEMINICIDIO,2025,8,1,Ipiau,Interior
+FEMINICIDIO,2024,8,1,Itape,Interior
+FEMINICIDIO,2025,8,1,Jequie,Interior
+FEMINICIDIO,2023,8,1,Lapao,Interior
+FEMINICIDIO,2025,8,1,Lauro de Freitas,RMS
+FEMINICIDIO,2025,8,1,Luis Eduardo Magalhaes,Interior
+FEMINICIDIO,2024,8,1,Macajuba,Interior
+FEMINICIDIO,2023,8,1,Porto Seguro,Interior
+FEMINICIDIO,2025,8,1,Queimadas,Interior
+FEMINICIDIO,2023,8,1,Riachao das Neves,Interior
+FEMINICIDIO,2024,8,1,Riachao do Jacuipe,Interior
+FEMINICIDIO,2025,8,1,Salvador,Salvador
+FEMINICIDIO,2023,8,1,Salvador,Salvador
+FEMINICIDIO,2024,8,1,Santana,Interior
+FEMINICIDIO,2024,8,1,Sao Sebastiao do Passe,RMS
+FEMINICIDIO,2023,8,1,Serrolandia,Interior
+FEMINICIDIO,2023,8,1,Simões Filho,RMS
+FEMINICIDIO,2023,8,1,Varzea do Poço,Interior
+FEMINICIDIO,2024,8,1,Vitoria da Conquista,Interior
+FEMINICIDIO,2024,9,1,America Dourada,Interior
+FEMINICIDIO,2024,9,1,Caldeirao Grande,Interior
+FEMINICIDIO,2023,9,1,Canavieiras,Interior
+FEMINICIDIO,2023,9,1,Candiba,Interior
+FEMINICIDIO,2023,9,1,Casa Nova,Interior
+FEMINICIDIO,2024,9,1,Contendas do Sincora,Interior
+FEMINICIDIO,2025,9,1,Eunapolis,Interior
+FEMINICIDIO,2025,9,2,Feira de Santana,Interior
+FEMINICIDIO,2024,9,1,Feira de Santana,Interior
+FEMINICIDIO,2025,9,1,Gandu,Interior
+FEMINICIDIO,2025,9,1,Ilheus,Interior
+FEMINICIDIO,2023,9,1,Itabuna,Interior
+FEMINICIDIO,2024,9,1,Itabuna,Interior
+FEMINICIDIO,2023,9,1,Jaguaquara,Interior
+FEMINICIDIO,2023,9,1,Jaguarari,Interior
+FEMINICIDIO,2023,9,1,Jandaira,Interior
+FEMINICIDIO,2024,9,1,Porto Seguro,Interior
+FEMINICIDIO,2025,9,2,Salvador,Salvador
+FEMINICIDIO,2023,9,2,Salvador,Salvador
+FEMINICIDIO,2023,9,1,Santanopolis,Interior
+FEMINICIDIO,2023,9,1,Santo Antonio de Jesus,Interior
+FEMINICIDIO,2024,9,1,Ubaitaba,Interior
+FEMINICIDIO,2024,9,1,Uibai,Interior
+FEMINICIDIO,2024,9,1,Valença,Interior
+FEMINICIDIO,2024,10,1,Acajutiba,Interior
+FEMINICIDIO,2025,10,1,Alagoinhas,Interior
+FEMINICIDIO,2023,10,1,Cachoeira,Interior
+FEMINICIDIO,2025,10,1,Camaçari,RMS
+FEMINICIDIO,2024,10,1,Candido Sales,Interior
+FEMINICIDIO,2025,10,1,Casa Nova,Interior
+FEMINICIDIO,2025,10,1,Coraçao de Maria,Interior
+FEMINICIDIO,2023,10,1,Feira de Santana,Interior
+FEMINICIDIO,2024,10,1,Feira de Santana,Interior
+FEMINICIDIO,2025,10,1,Ilheus,Interior
+FEMINICIDIO,2023,10,1,Itiuba,Interior
+FEMINICIDIO,2024,10,1,Iuiu,Interior
+FEMINICIDIO,2024,10,1,Joao Dourado,Interior
+FEMINICIDIO,2025,10,1,Juazeiro,Interior
+FEMINICIDIO,2025,10,1,Macarani,Interior
+FEMINICIDIO,2025,10,1,Matina,Interior
+FEMINICIDIO,2023,10,1,Ourolandia,Interior
+FEMINICIDIO,2023,10,1,Porto Seguro,Interior
+FEMINICIDIO,2024,10,1,Rio Real,Interior
+FEMINICIDIO,2023,10,1,Salvador,Salvador
+FEMINICIDIO,2023,10,1,Santo Amaro,Interior
+FEMINICIDIO,2024,10,1,Santo Antonio de Jesus,Interior
+FEMINICIDIO,2025,10,1,Santo Estevao,Interior
+FEMINICIDIO,2024,10,2,Teixeira de Freitas,Interior
+FEMINICIDIO,2024,10,2,Vitoria da Conquista,Interior
+FEMINICIDIO,2025,10,1,Wenceslau Guimaraes,Interior
+FEMINICIDIO,2024,11,1,Alcobaça,Interior
+FEMINICIDIO,2025,11,1,Barreiras,Interior
+FEMINICIDIO,2024,11,1,Catu,Interior
+FEMINICIDIO,2023,11,1,Conceiçao da Feira,Interior
+FEMINICIDIO,2023,11,1,Correntina,Interior
+FEMINICIDIO,2023,11,1,Cruz das Almas,Interior
+FEMINICIDIO,2023,11,1,Esplanada,Interior
+FEMINICIDIO,2024,11,2,Feira de Santana,Interior
+FEMINICIDIO,2025,11,1,Guanambi,Interior
+FEMINICIDIO,2023,11,1,Ilheus,Interior
+FEMINICIDIO,2025,11,1,Inhambupe,Interior
+FEMINICIDIO,2025,11,1,Itapetinga,Interior
+FEMINICIDIO,2025,11,1,Jaborandi,Interior
+FEMINICIDIO,2023,11,1,Jequie,Interior
+FEMINICIDIO,2023,11,1,Juazeiro,Interior
+FEMINICIDIO,2025,11,1,Maragogipe,Interior
+FEMINICIDIO,2024,11,2,Marau,Interior
+FEMINICIDIO,2025,11,1,Nova Soure,Interior
+FEMINICIDIO,2024,11,1,Pilao Arcado,Interior
+FEMINICIDIO,2023,11,1,Pindai,Interior
+FEMINICIDIO,2023,11,2,Porto Seguro,Interior
+FEMINICIDIO,2025,11,1,Riacho de Santana,Interior
+FEMINICIDIO,2023,11,1,Ribeira do Pombal,Interior
+FEMINICIDIO,2025,11,1,Salinas da Margarida,RMS
+FEMINICIDIO,2023,11,3,Salvador,Salvador
+FEMINICIDIO,2024,11,1,Salvador,Salvador
+FEMINICIDIO,2025,11,1,Simões Filho,RMS
+FEMINICIDIO,2025,11,1,Sitio do Mato,Interior
+FEMINICIDIO,2023,11,1,Sobradinho,Interior
+FEMINICIDIO,2024,11,1,Tucano,Interior
+FEMINICIDIO,2025,11,1,Una,Interior
+FEMINICIDIO,2023,11,1,Vera Cruz,RMS
+FEMINICIDIO,2024,12,2,America Dourada,Interior
+FEMINICIDIO,2025,12,1,Aurelino Leal,Interior
+FEMINICIDIO,2025,12,1,Banzae,Interior
+FEMINICIDIO,2024,12,1,Barra,Interior
+FEMINICIDIO,2024,12,1,Buritirama,Interior
+FEMINICIDIO,2024,12,1,Caem,Interior
+FEMINICIDIO,2024,12,1,Cafarnaum,Interior
+FEMINICIDIO,2024,12,1,Central,Interior
+FEMINICIDIO,2025,12,1,Feira de Santana,Interior
+FEMINICIDIO,2023,12,1,Ilheus,Interior
+FEMINICIDIO,2024,12,1,Irara,Interior
+FEMINICIDIO,2024,12,1,Itabela,Interior
+FEMINICIDIO,2023,12,1,Itapetinga,Interior
+FEMINICIDIO,2023,12,1,Jacobina,Interior
+FEMINICIDIO,2023,12,1,Jequie,Interior
+FEMINICIDIO,2025,12,1,Jequie,Interior
+FEMINICIDIO,2023,12,1,Jussara,Interior
+FEMINICIDIO,2024,12,1,Lauro de Freitas,RMS
+FEMINICIDIO,2025,12,1,Luis Eduardo Magalhaes,Interior
+FEMINICIDIO,2023,12,1,Macajuba,Interior
+FEMINICIDIO,2025,12,1,Mata de Sao Joao,RMS
+FEMINICIDIO,2023,12,1,Nova Viçosa,Interior
+FEMINICIDIO,2023,12,1,Pilao Arcado,Interior
+FEMINICIDIO,2023,12,1,Piritiba,Interior
+FEMINICIDIO,2024,12,1,Salvador,Salvador
+FEMINICIDIO,2023,12,1,Salvador,Salvador
+FEMINICIDIO,2025,12,1,Salvador,Salvador
+FEMINICIDIO,2024,12,1,Sao Desiderio,Interior
+FEMINICIDIO,2023,12,2,Simões Filho,RMS
+FEMINICIDIO,2024,12,1,Simões Filho,RMS
+FEMINICIDIO,2023,12,1,Terra Nova,Interior
+FEMINICIDIO,2025,12,1,Uibai,Interior
